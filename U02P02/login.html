@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 Login</title>
+</head>
+
+<body>
+    <h1>Formulario Login</h1>
+    <hr>
+    <br>
+    <form action="procesar_login.php" method="post">
+        <label for="NombreUsuario">Nombre de Usuario:</label>
+        <input type="text" id="NombreUsuario" name="NombreUsuario" required>
+        <br>
+        <br>
+        <label for="claveContraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+        <br>
+        <br>
+        <label for="recordarDatos">Recordar datos:</label>
+        <input type="checkbox" id="RecordarDatos" name="RecordarDatos">
+        <br>
+        <br>
+        <button type="submit">Enviar Formulario</button>
+    </form>
+</body>
+
+</html>

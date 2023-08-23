@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 Tablas</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabla Basica</h2>
+    <table> <!-- Esta es la tabla basica, actualizada el 23/08/2023-->
+        <thead>
+            <tr>
+                <th>Total de</th>
+                <th>Leonel Messi</th>
+                <th>Cristiano Ronaldo</th>
+                <th>Kylian Mbappé</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Goles</td>
+                <td>817</td>
+                <td>844</td>
+                <td>280</td>
+            </tr>
+            <tr>
+                <td>Titulos</td>
+                <td>44</td>
+                <td>35</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Balones de oro</td>
+                <td>7</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h2>Tabla Compleja</h2>
+    <table><!-- Esta es una tabla compleja, sobre las ultimas 5 temporadas-->
+        <thead>
+            <tr>
+                <th rowspan="2">Equipo</th>
+                <th colspan="3">Clasicos totales</th>
+                <th rowspan="2">Titulos Totales</th>
+            </tr>
+            <tr>
+                <th>Ganados</th>
+                <th>Empatados</th>
+                <th>Perdidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.realmadrid.com/" target="_blank">Real Madrid</a></td>
+                <td>102</td>
+                <td>52</td>
+                <td>100</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.fcbarcelona.es/es/" target="_blank">Barcelona</a></td>
+                <td>100</td>
+                <td>52</td>
+                <td>102</td>
+                <td>94</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Practica 3</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>McDelivery</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="edad">Edad:</label></td>
+                        <td><input type="number" id="edad" name="edad"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">Color preferido:</label></td>
+                        <td><input type="color" id="colorPreferido" name="colorPreferido"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comentario">Comentario:</label></td>
+                        <td><textarea id="comentario" name="comentario" rows="3" minlength="20"></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Informacion</h2>
+            <p>Nos encargamos de distribuir los productos de McDonald's en parte de Rosario.</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p><u>© copyright Valentin Natalio Cura</u></p>
+    </footer>
+</body>
+
+</html>
